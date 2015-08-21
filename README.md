@@ -1,4 +1,4 @@
-# cloudberrylab.com php API library
+# cloudberrylab.com php library
 
 ## Usage example
 
