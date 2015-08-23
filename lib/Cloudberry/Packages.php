@@ -41,7 +41,7 @@ class Packages extends \Requests{
         $request = $this::delete($this->url . "/$uid", $this->headers, $pid);
         return json_decode( $request->body );
     }
-
+}
 
 
 
