@@ -6,7 +6,7 @@
 
 <?php
 
-require_once 'vendor/Requests/library/Requests.php';
+require_once 'vendor/autoload.php';
 require_once 'lib/Cloudberry/Provider.php';
 require_once 'lib/Cloudberry/Users.php';
 
