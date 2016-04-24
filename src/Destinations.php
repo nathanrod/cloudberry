@@ -3,7 +3,7 @@
 namespace Cloudberry;
 
 class Destinations extends \Requests{
-    private $url = 'https://mbs.cloudberrylab.com:8090/api/Destinations';
+    private $url = 'http://mbs.cloudberrylab.com:8090/api/Destinations';
     private $token;
     private $headers;
 
