@@ -33,7 +33,7 @@ class Users extends \Requests{
     }
 
     public function deleteUser( $uid ){
-        $request = $this::delete($this->url . "/$uid", $this->headers, $uid);
+        $request = $this::delete($this->url . "/$uid", $this->headers);
         return json_decode( $request->body );
     }
 
